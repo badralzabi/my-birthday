@@ -1,0 +1,104 @@
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #F5F7F8;
+   height: 300px;
+   width: 200%;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding: 0 15px;
+      border-radius:10px ;
+   -webkit-border-radius:10px ;
+   -moz-border-radius:10px ;
+   -ms-border-radius:10px ;
+   -o-border-radius:10px ;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-info{
+    display: flex;
+    gap: 10px;
+   width: 200%;
+   
+   
+}
+ input{
+    text-align: center;
+    border:dotted  3px gray ;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 8px;
+    width: 200%;
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+}
+ input:focus{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    outline: solid 2px rgb(255, 248, 248);}
+ textarea{
+    text-align: center;
+    border:dotted  3px gray ;    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 8px;
+    width: 200%;
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+}
+textarea:focus{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    outline: solid 1px rgb(255, 248, 248);
+}
+h6{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button{
+    width: 200%;
+    color:white;
+    background-color: #507687;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+button:hover{
+    background-color: #3f5f6e;
+
+}
